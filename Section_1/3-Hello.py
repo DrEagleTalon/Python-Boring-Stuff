@@ -1,4 +1,4 @@
-# This program says hello and asks for my name
+# This program says hello and asks for my name from section 1 Lecture 3 "Writing our First Program"
 
 print('hellow world!')
 print('what is your name?') # ask for their name
