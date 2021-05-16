@@ -1,3 +1,4 @@
+# This is the Code used in IDLE during the examples used in this section
 42 == 42
 42 == 42
 True
