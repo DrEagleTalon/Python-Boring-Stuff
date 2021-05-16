@@ -3,11 +3,14 @@
 print('hellow world!')
 print('what is your name?') # ask for their name
 myName = input()
-print('it is good to meet you, ' + myName)
+print('it is good to meet you, ' + myName) # prints 'it is good to meet you (myName variable from input)
 print('the length of your name is: ')
-print(len (myName))
+print(len (myName)) # Prints the length of Variable myName
 print('what is your age?') # ask for their age
-myAge = input()
-print('you will be ' + str(int(myAge) + 1) + ' in a year.')
+myAge = input() # their age input
+print('you will be ' + str(int(myAge) + 1) + ' in a year.') # Prints 'You Will be ' (myAge as Integer Plus 1 then turns it into a String) 'in a year'
+print('How do you feel about being that old?')
+myFeeling = input()
+print('It could always be worse, right?')
 
 #the end of program from "My First Program"
