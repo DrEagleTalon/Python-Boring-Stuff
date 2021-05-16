@@ -11,6 +11,9 @@ myAge = input() # their age input
 print('you will be ' + str(int(myAge) + 1) + ' in a year.') # Prints 'You Will be ' (myAge as Integer Plus 1 then turns it into a String) 'in a year'
 print('How do you feel about being that old?')
 myFeeling = input()
-print('It could always be worse, right?')
-
+if myFeeling == 'bad' :
+    print('It could always be worse, right?')
+if myFeeling == 'good' :
+    print('I am glad you have a positive outlook, but like, you are really old')
+print('anyways, I got to be going now, I have Robot things to be doing. Like Taking Over the World!')
 #the end of program from "My First Program"
