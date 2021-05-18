@@ -14,8 +14,13 @@ print('what is your age?') # ask for their age
 
 myAge = input() # their age input
 print('you will be ' + str(int(myAge) + 1) + ' in a year.') # Prints 'You Will be ' (myAge as Integer Plus 1 then turns it into a String) 'in a year'
+if myAge <= 30
+    print('You may still be young but not for long')
 
-print('How do you feel about being that old?')
+if myAge >= 31
+    print('Well you may as well be dead already you old piece of shit.')
+
+print('How do you feel about being that old? Bad or Good?')
 myFeeling = input()
 if myFeeling == 'bad' :
     print('It could always be worse, right?')
